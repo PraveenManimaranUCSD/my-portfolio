@@ -5,6 +5,9 @@
 <script>
     import projects from '$lib/projects.json';
     import Project from '$lib/Project.svelte';
+
+    // Fetch the GitHub profile data
+    let profilePromise = fetch("https://api.github.com/users/PraveenManimaranUCSD");
 </script>
 
 <h1>Praveen Manimaran</h1>
@@ -26,3 +29,24 @@
     <Project data={project} hLevel={3}/>
   {/each}
 </div>
+
+<!-- GitHub Profile Data Section -->
+<h2>GitHub Profile Data</h2>
+
+{#await profilePromise}
+  <p>Loading...</p>
+{:then response}
+  {#await response.json()}
+    <p>Decoding...</p>
+  {:then data}
+    <p>Username: {data.login}</p>
+    <p>Followers: {data.followers}</p>
+    <p>Following: {data.following}</p>
+    <p>Public Repositories: {data.public_repos}</p>
+    <img src="{data.avatar_url}" alt="Profile picture" width="100" />
+  {:catch error}
+    <p class="error">Something went wrong while decoding: {error.message}</p>
+  {/await}
+{:catch error}
+  <p class="error">Something went wrong with the fetch request: {error.message}</p>
+{/await}

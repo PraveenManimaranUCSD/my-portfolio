@@ -59,7 +59,7 @@ h2 {
 }
 
 
-.color-scheme {
+/* .color-scheme {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -71,7 +71,7 @@ select {
   padding: 0.5em;
   margin-left: 0.5em;
   font-family: inherit; 
-}
+} */
 
 form {
   display: grid; 

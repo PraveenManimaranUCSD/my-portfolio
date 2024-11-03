@@ -1,62 +1,74 @@
 [
-	{
-		"title": "Lorem ipsum dolor sit.",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
-	},
-	{
-		"title": "Architecto minima sed omnis?",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Est, reiciendis aspernatur debitis maxime et itaque animi sit quod quo, tempore incidunt tempora dignissimos exercitationem enim numquam quam quaerat optio laborum ut unde hic delectus laboriosam? Quasi, cupiditate corporis."
-	},
-	{
-		"title": "Asperiores rem repellendus doloremque.",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Eligendi tenetur quae quos recusandae est. Cumque, voluptatem. Quo nihil dignissimos molestiae explicabo praesentium aspernatur debitis, illo rerum possimus quam ducimus earum nulla officiis maiores itaque repellat corporis soluta labore?"
-	},
-	{
-		"title": "Laudantium reprehenderit placeat perspiciatis.",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Quo minus perferendis nulla corrupti repellat dolorem dolore assumenda sit minima ducimus quidem ullam, id ipsa dicta tempora laborum officiis unde possimus cumque nobis alias inventore! Ullam repudiandae iusto nam."
-	},
-	{
-		"title": "Consequuntur autem eos facere.",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Laborum alias ea unde harum aspernatur? Molestiae, veritatis, possimus, numquam ex excepturi quod ducimus sit odit optio quibusdam sequi aliquid itaque tempore perspiciatis placeat expedita vero voluptates. Sit, aspernatur sint!"
-	},
-	{
-		"title": "Quos sint quaerat omnis?",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Est neque, velit nam rerum error odio voluptates voluptatem magnam laboriosam ad? Doloribus, id et itaque unde porro totam ullam quaerat blanditiis odit animi eveniet aut, voluptate velit iure odio."
-	},
-	{
-		"title": "Iste ipsam magni fuga!",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Velit omnis suscipit nemo quia? Iste maiores numquam labore quia nemo eveniet odit, modi magnam? Architecto officia sint est. Architecto iste minima consequuntur explicabo illo error sed at dolore nostrum!"
-	},
-	{
-		"title": "Ipsum, aperiam magni? Nobis.",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Delectus magni, vel, quod mollitia hic rem temporibus, sint doloribus tenetur qui dolores tempore quisquam fuga nobis recusandae molestiae ipsum nostrum maxime eaque dicta aperiam eum quas beatae. At, neque."
-	},
-	{
-		"title": "Dicta nihil odit illo?",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Vitae quos laudantium officiis rerum, accusamus delectus aspernatur quas nulla, magni sed, excepturi saepe incidunt laboriosam alias at aliquam atque quisquam autem nesciunt. Minus, reprehenderit odit nam illo natus aspernatur?"
-	},
-	{
-		"title": "Vel earum nulla facilis.",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Aut voluptatem sint atque corrupti accusamus necessitatibus possimus et, itaque nulla id deleniti nemo repellendus asperiores molestias laudantium, mollitia ad dicta. Laboriosam, itaque. Quos corporis, perferendis natus officiis beatae qui."
-	},
-	{
-		"title": "Nobis iste neque quaerat.",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Quos, recusandae, sit rerum velit nostrum nihil quisquam tempora repellat sed quibusdam facilis. Assumenda quaerat ab, nesciunt odio facere sit, ipsa necessitatibus tempora, maiores commodi sed quae provident deserunt at?"
-	},
-	{
-		"title": "Iusto, incidunt. Totam, illum.",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Tempore, eveniet minus velit, earum aperiam necessitatibus repellendus provident accusamus illum officiis doloribus, eum saepe est aut numquam distinctio pariatur natus totam repellat. Numquam nulla libero sapiente magnam nostrum ex."
-	}
+    {
+        "title": "Sign Language Detection",
+        "year": "2024",
+        "image": "/images/Sign-Language.png",
+        "description": "Utilized TensorFlow and Keras to construct a deep neural network with LSTM layers, allowing the model to effectively decode sign language from sequences of key points extracted using MediaPipe."
+    },
+    {
+        "title": "Handwritten Digit and Character Classification",
+        "year": "2023",
+        "image": "/images/Handwritten_digit.jpg",
+        "description": "Implemented a handwritten digit recognition application using the MNIST dataset, leveraging CNNs to achieve high accuracy in classifying digits. Developed a GUI for real-time recognition capabilities."
+    },
+    {
+        "title": "NBA MVP Predictor",
+        "year": "2022",
+        "image": "/images/Lebron_MVP.jpg",
+        "description": "Predicted the NBA's Most Valuable Player using machine learning algorithms, including Linear Regression, Ridge Regression, Random Forest, and Boosted Trees."
+    },
+    {
+        "title": "Time Series Analysis on LA Weather Forecast",
+        "year": "2023",
+        "image": "/images/LA_Temp.jpg",
+        "description": "Analyzed monthly weather patterns in Downtown Los Angeles using SARIMA and Lagged Regression to explore global warming, seasonal variations, and significant weather trends."
+    },
+    {
+        "title": "ECG Irregular Heartbeat Diagnosis",
+        "year": "2024",
+        "image": "/images/heartbeat.jpg",
+        "description": "Used ECG data from Lawrence Livermore National Laboratory for binary classification of healthy vs irregular heartbeats, achieving 99% accuracy. Also performed multiclass classification for various heartbeat types using multiple models."
+    },
+    {
+        "title": "YouTube Data Analysis",
+        "year": "2023",
+        "image": "/images/youtube-4k-.jpg",
+        "description": "Conducted data analysis on YouTube trends to understand content patterns, viewer engagement, and influential factors across various categories."
+    },
+    {
+        "title": "World Happiness Report 2023",
+        "year": "2023",
+        "image": "/images/WHR.png",
+        "description": "Explored the World Happiness Report 2023 to analyze factors affecting life satisfaction in North America, identifying meaningful patterns across diverse countries."
+    },
+    {
+        "title": "Tableau: Video Games Sales Dashboard",
+        "year": "2022",
+        "image": "/images/video_games.png",
+        "description": "Created an interactive dashboard in Tableau to explore video game sales by region, year, publisher, and title, offering insights through dynamic filters."
+    },
+    {
+        "title": "Fertility Rate and Population Growth by Continent",
+        "year": "2024",
+        "image": "/images/Fertility_Rate.jpg",
+        "description": "Analyzed UNdata on population growth and fertility rates across continents, observing a decline over time and exploring socioeconomic factors influencing these trends."
+    },
+    {
+        "title": "Credit Card Classifier",
+        "year": "2021",
+        "image": "/images/credit_card.jpg",
+        "description": "Developed a classifier to detect fraudulent credit card transactions, applying techniques like Decision Trees, Random Forest, and Logistic Regression to improve accuracy."
+    },
+    {
+        "title": "Tableau: Asians in Fortune 1000 Companies",
+        "year": "2024",
+        "image": "/images/Fortune_1000.jpg",
+        "description": "Built a dashboard to visualize the representation of Asian executives in Fortune 1000 companies, aiming to understand racial diversity in leadership roles."
+    },
+    {
+        "title": "Star and Galaxy Classification",
+        "year": "2021",
+        "image": "/images/galaxy.jpg",
+        "description": "Classified stars and galaxies using a 34,000-image dataset from HSC, employing image preprocessing and deep learning techniques to enhance accuracy."
+    }
 ]

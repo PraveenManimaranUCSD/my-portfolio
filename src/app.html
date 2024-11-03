@@ -8,6 +8,12 @@
 		<!-- Default Title -->
 		<title>My Portfolio</title>
 
+		<script>
+			let root = document.documentElement;
+			let colorScheme = localStorage.colorScheme ?? 'light dark';
+			root.style.setProperty('color-scheme', colorScheme);
+		</script>
+
 		<!-- Link to JavaScript -->
 		<script src="%sveltekit.assets%/global.js" type="module"></script>
 
@@ -17,3 +23,4 @@
 		<div>%sveltekit.body%</div>
 	</body>
 </html>
+

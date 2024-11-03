@@ -2,6 +2,22 @@
     import { page } from '$app/stores';
     import '../style.css';
   
+    // Define safe reference to localStorage
+  let localStorage = globalThis.localStorage ?? {};
+
+    // Retrieve saved color scheme or default to 'light dark'
+    let colorScheme = localStorage.colorScheme ?? 'light dark';
+
+    // Reference to <html> element
+    let root = globalThis?.document?.documentElement;
+
+    // Reactively apply color scheme to the <html> element
+    $: root?.style.setProperty('color-scheme', colorScheme);
+
+    // Reactively save color scheme to localStorage whenever it changes
+    $: localStorage.colorScheme = colorScheme;
+
+
     let pages = [
       { url: './', title: 'Home' },
       { url: './projects', title: 'Projects' },
@@ -9,8 +25,20 @@
       { url: './contact', title: 'Contact' },
       { url: 'https://github.com/PraveenManimaranUCSD', title: 'GitHub' }
     ];
+
   </script>
   
+
+<label class="color-scheme">
+    Theme:
+    <select id="color-scheme-selector" bind:value={colorScheme}>
+    <option value="light dark">Automatic</option>
+    <option value="light">Light</option>
+    <option value="dark">Dark</option>
+    </select>
+</label>
+
+    
   <nav>
     {#each pages as p}
       <a 
@@ -53,5 +81,20 @@
       padding-bottom: 0.1em;
     }
   
+    /* Theme switcher styles */
+    .color-scheme {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 80%; 
+    font-family: inherit; 
+    }
+
+    select {
+    padding: 0.5em;
+    margin-left: 0.5em;
+    font-family: inherit; 
+    }
+
   </style>
   
