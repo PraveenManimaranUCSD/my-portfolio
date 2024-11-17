@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
+		"prebuild": "npx elocuent -d static,src -o static/loc.csv",
 		"build": "vite build && npm run package",
 		"preview": "vite preview",
 		"package": "svelte-kit sync && svelte-package && publint",
@@ -34,6 +35,7 @@
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/package": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"elocuent": "^0.0.3",
 		"publint": "^0.2.0",
 		"svelte": "^5.0.0-next.272",
 		"typescript": "^5.3.2",
